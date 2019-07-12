@@ -18,14 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTz-73-W0C">
-                                <rect key="frame" x="119" y="187" width="176" height="202"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="115"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTz-73-W0C">
+                                <rect key="frame" x="127" y="192" width="157" height="186"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="145"/>
                                 <state key="normal" title="👑"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsR-M3-Sqf">
+                                <rect key="frame" x="127" y="506" width="157" height="186"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="145"/>
+                                <state key="normal" title="💯"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zsR-M3-Sqf" secondAttribute="bottom" constant="170" id="6f0-kH-Tih"/>
+                            <constraint firstItem="mTz-73-W0C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="148" id="B3l-TF-Tso"/>
+                            <constraint firstItem="mTz-73-W0C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="E6t-6h-6VH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zsR-M3-Sqf" secondAttribute="trailing" constant="130" id="ICH-ms-qVS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mTz-73-W0C" secondAttribute="trailing" constant="130" id="eT2-MB-AME"/>
+                            <constraint firstItem="zsR-M3-Sqf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="uTz-aP-hyB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
